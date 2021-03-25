@@ -1,0 +1,79 @@
+#HomeMainContainer{
+  display: flex;
+  flex-direction: row;
+    background-color: #ccffcc; 
+  
+  }
+  #HomeMainImage{
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/hill.jpg); 
+    background-repeat: repeat;
+    margin-top: 1em;
+    height:20em;
+    width:30em;
+  }
+  #highlight{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #3280E1;
+  }
+  #homeMainPara{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    align-items: flex-start;  
+    margin:1em;  
+    font-size: 2em;
+    color: #09310f;
+}
+/* #HomeHillImage{
+    display: flex;
+    justify-content: space-evenly;
+  /* background-image: url("../images/main.jpg"); */
+  /* background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 10em;
+  width: 20em; 
+} */ */
+
+#HomeButtonGrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f50dbb;
+    border: 2px solid red;
+}
+#buttonImg{
+    display: flex;
+    background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 1em; 
+  height:   10em;
+  width: 15em;
+  border-radius: 10px; 
+}
+#HomeActionLink{
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 1.55em;
+    font-weight: 600;
+    color:#3083E3;
+    text-decoration: underline;
+
+}
+#homeButtonContainer{
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+      background-color: #cee0d2;
+    border: 2px solid #2a7536;
+    border-radius: 10px;
+    margin:2em 1em;
+    box-shadow:5px 5px 5px #999;
+    padding: 2px;
+   
+}

@@ -1,0 +1,22 @@
+#Logo{
+    width: 8em;
+    height: 8em;
+    margin-top: 1em
+}
+#appBar {
+    background-color: #50665c;
+    color: #7af4ab;
+}
+#Banner{
+    display: flex;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    background-color: #ccffcc;
+}
+#BannerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+ 
