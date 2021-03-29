@@ -1,3 +1,4 @@
+
 #Logo{
     width: 8em;
     height: 8em;
@@ -6,10 +7,16 @@
 #appBar {
     background-color: #50665c;
     color: #7af4ab;
+    width:96%;
+   
 }
 #Banner{
     display: flex;
-    margin-top: 1.5em;
+    width:102%;
+    margin-top:2em;
+    border-radius: 15px;
+    border:2px solid darkgreen;
+   
     margin-bottom: 2em;
     background-color: #ccffcc;
 }
@@ -19,4 +26,12 @@
     justify-content: center;
    
 }
- 
+ #appBar, #footer{
+     width:97%;
+     background-color: #50665c;
+ }
+ #footer{
+    width:100.5%;
+    background-color: #50665c;
+    color: #ccffcc;
+}

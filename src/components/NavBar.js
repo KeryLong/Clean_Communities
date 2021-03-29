@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('sm')]: {
       width: '12ch',
       '&:focus': {
-        width: '20ch',
+        width: '100%',
       },
     },
   },
@@ -69,7 +69,7 @@ const NavBar = () =>{
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id ="NavBar">
       <AppBar position="static">
         <Toolbar id='appBar'>
           <IconButton

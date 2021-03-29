@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import '../stylesheets/AppBar.css'
+import '../stylesheets/NavBar.css';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Logo from '../images/Logo.png';
@@ -27,7 +27,7 @@ const LogoGrid = () =>
           <img id = "Logo" src={Logo} alt="clean communities logo"/>
         </Grid>
         <Grid item xs={8} md={6}>
-        <Typography variant="h1"  id="BannerHeader">
+        <Typography variant="h2"  id="BannerHeader">
         Clean Communities
       </Typography>
         </Grid>

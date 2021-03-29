@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
 
 import Typography from '@material-ui/core/Typography';
-import '../stylesheets/App.css'
+import '../stylesheets/NavBar.css'
 
 const useStyles = makeStyles({
   root: {
@@ -18,7 +18,7 @@ const Footer = () =>{
   return (
     <BottomNavigation id='footer'>
       <Typography>
-      <h3>© Clean Communities Ltd.</h3>
+      <h3>©2021 Clean Communities Ltd.</h3>
         </Typography>
         </BottomNavigation>
       
