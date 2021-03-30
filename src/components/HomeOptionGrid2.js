@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import {Link} from 'react-router-dom';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -48,7 +49,7 @@ export default function ImgMediaCard() {
 </CardActionArea>
 <CardActions>
   <div id="HomoptionButtonDiv">
-<Button variant="contained" id="HomeOptionButton">Let's Start!</Button>
+<Link to="start"><Button variant="contained" id="HomeOptionButton">Let's Start!</Button></Link>
 </div>
 </CardActions>
 </Card>
