@@ -12,6 +12,8 @@
 }
 #Banner{
     display: flex;
+    justify-content: space-around;
+    color:#50665c;
     width:102%;
     margin-top:2em;
     border-radius: 15px;
@@ -24,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0.25em;
    
 }
  #appBar, #footer{
@@ -34,4 +37,9 @@
     width:100.5%;
     background-color: #50665c;
     color: #ccffcc;
+}
+#boldCapital{
+    font-size: 1.5em;
+    color: #50665c;
+    font-weight: bold;
 }

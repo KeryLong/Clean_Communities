@@ -93,6 +93,7 @@ body{
 }
 #HomeOptionCard{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #ccffcc;
   border: 2px solid darkgreen;
@@ -105,4 +106,21 @@ body{
   flex-direction: row;
 margin-top: -1em;
   width:102%;
+}
+#HomeOptionButton{
+  display:flex;
+  align-items: center;
+background-color: #09310f;
+  color:#ccffcc;
+  font-weight: bold;
+}
+#Logo{
+  display:flex;
+}
+#HomoptionButtonDiv{
+  display: flex;
+  width:100%;
+ justify-content: center;
+ align-items: center;
+
 }

@@ -12,8 +12,6 @@ import Typography from '@material-ui/core/Typography';
 import Trash from '../images/trash.jpg';
 import Kid from '../images/kid.jpg';
 import '../stylesheets/HomePage.css';
-import { green } from '@material-ui/core/colors';
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 400,
@@ -49,12 +47,9 @@ export default function ImgMediaCard() {
   </CardContent>
 </CardActionArea>
 <CardActions>
-  <Button size="small" color="primary">
-    Share
-  </Button>
-  <Button size="small" color="primary">
-    Learn More
-  </Button>
+  <div id="HomoptionButtonDiv">
+<Button variant="contained" id="HomeOptionButton">Let's Start!</Button>
+</div>
 </CardActions>
 </Card>
 <Card className={classes.root} id="HomeOptionCard">
@@ -76,12 +71,9 @@ export default function ImgMediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
-        </Button>
+  <div id="HomoptionButtonDiv">
+<Button variant="contained" id="HomeOptionButton">Find Now!</Button>
+</div>
       </CardActions>
     </Card>
 </div>

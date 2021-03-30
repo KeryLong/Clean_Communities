@@ -22,19 +22,17 @@ const LogoGrid = () =>
 
   return (
     <div className={classes.root}id ="Banner">
-      <Grid container spacing={3}>
-        <Grid item xs={2} md={3}>
+     
           <img id = "Logo" src={Logo} alt="clean communities logo"/>
-        </Grid>
-        <Grid item xs={8} md={6}>
+        
+        
         <Typography variant="h2"  id="BannerHeader">
-        Clean Communities
+        <span id="boldCapital">C</span>lean  <span id="boldCapital">  C</span>ommunities
       </Typography>
-        </Grid>
-        <Grid item xs={2} md={3}>
+        
+        
           <img id = "Logo" src={Logo} alt="clean communities logo"/>
-        </Grid>
-        </Grid>
+        
       
     </div>
   );
